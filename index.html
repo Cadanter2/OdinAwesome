@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Danie's Awesome Webpage</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
-    
     <div class="hero">
         <div class="hero_details">
             <div class="logo"><img src="./images/logo.png" alt=""></div>
             <div class="hero__text">The van Eedens</div>
         </div>
         <nav>
-            <ul class="list">
-                <li>home</li>
-                <li>about</li>
-                <li>contact</li>
+            <ul class="nav-btn">
+                <button>home</button>
+                <button>about</button>
+                <button>contact</button>
             </ul>
         </nav>
     </div>
@@ -30,9 +33,9 @@
                 The van Eeden family
             </div>
             <div class="sub-title">
-                This website is dedicated to the van Eeden family, direct desendents of Jan Janse van Eeden that came to South Africa in 1662. 
+                This website is dedicated to the van Eeden family, direct descendants of Jan Janse van Eeden that came to South Africa in 1662. 
             </div>
-            <button class="btn">Sign Up</button>
+            <button class="btn"><a href="#">Sign Up</a></button>
         </div>
         <div class="fam-pic">
             <img src="./images/vaneedens.jpg" alt="">
@@ -41,29 +44,51 @@
     <div class="info-title">Family Pictures</div>
     <div class="container">
         <div class="info">
-            <div class="img"><img src="#" alt=""></div>
+            <div class="img"><img src="./images/Stamvader.jpg" alt=""></div>
             <div class="info__text">
-                A picture of the four brothers on Vergelegen farm
+                A short extract of our ancester, Jan Janse van Eeden
             </div>
         </div>
         <div class="info">
-            <div class="img"><img src="#" alt=""></div>
+            <div class="img"><img src="./images/Vergelegen.jpg" alt=""></div>
             <div class="info__text">
-                A picture of the four brothers on Vergelegen farm
+                A picture of the four brothers on the Vergelegen farm
             </div>
         </div>
         <div class="info">
-            <div class="img"><img src="#" alt=""></div>
+            <div class="img"><img src="./images/Broers se familie.jpg" alt=""></div>
             <div class="info__text">
-                A picture of the four brothers on Vergelegen farm
+                Descendants of the four sons
             </div>
         </div>
         <div class="info">
-            <div class="img"><img src="#" alt=""></div>
+            <div class="img"><img src="./images/Langslewendes.jpg" alt=""></div>
             <div class="info__text">
-                A picture of the four brothers on Vergelegen farm
+                Direct family of Daniel Hendrik
             </div>
         </div>
+    </div>
+    <div class="quote">
+        <div class="quote__text">
+            Expecting the world to treat you fairly because you are a good person is a little like expecting the bull not to attack you becausee you are a vegetarian.
+        </div>
+        <div class="quote__persona">
+            - Dennis Wholey
+        </div>
+    </div>
+    <div class="shoutout">
+        <div class="action">
+            <div class="action__title">
+                Call to action! It's time!
+            </div>
+            <div class="action__textt">
+                Sign up for our product by clicking that button right over there!
+            </div>
+        </div>
+        <button class="btn"><a href="#">Sign Up</a></button>
+    </div>
+    <div class="footer">
+        Copyright &copy The Odin Project 2021
     </div>
 </body>
 </html>
